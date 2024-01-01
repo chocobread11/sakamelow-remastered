@@ -1,92 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="script.js"></script>
-</head>
-<body>
-  
-<section class="nav-sect">
-  <div class="container">
-    <header>
-      <h1>SakaMelow</h1>
-      <div class="navigation">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="nav-sect">
+      <div class="container">
+        <header>
+          <h1>SakaMelow</h1>
+          <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="iconCart">
+            <img src="images/cart.png" alt="Trolley" />
+            <div class="totalQuantity">0</div>
+          </div>
+        </header>
       </div>
-      <div class="iconCart">
-        <img src="images/cart.png" alt="Trolley">
-        <div class="totalQuantity">0</div>
-      </div>
-    </header>
-  </div>
-  
+    </section>
 
-</section>
-  
- <section>
-  <div class="container">
-  <div class="listProduct">
-    <div class="item">
-      <img src="images/oden.png" alt="oden" width="650" height="433">
-      <h2>Oden</h2>
-      <div class="price">RM10</div>
-      <button>Add to Cart</button>
-    </div>
-  </div>
-
-  <div class="cart">
-    <h2>Cart</h2>
-    <div class="listCart">
-      <div class="item">
-        <img src="images/oden.png" alt="oden">
-        <div class="content">
-          <div class="name">Oden</div>
-          <div class="price">RM10</div>
+    <section>
+      <div class="container">
+        <div class="listProduct">
+          <div class="item">
+            <img src="images/oden.png" alt="oden" width="650" height="433" />
+            <h2>Oden</h2>
+            <div class="price">RM10</div>
+            <button>Add to Cart</button>
+          </div>
         </div>
-        <div class="quantity">
-          <button style="background-color: rgb(255, 51, 0);">-</button>
-          <span class="value">1</span>
-          <button style="background-color: rgb(20, 247, 20);">+</button>
+
+        <div class="cart">
+          <h2>Cart</h2>
+          <div class="listCart">
+            <div class="item">
+              <img src="images/oden.png" alt="oden" />
+              <div class="content">
+                <div class="name">Oden</div>
+                <div class="price">RM10</div>
+              </div>
+              <div class="quantity">
+                <button style="background-color: rgb(255, 51, 0)">-</button>
+                <span class="value">1</span>
+                <button style="background-color: rgb(20, 247, 20)">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="close">CLOSE</div>
+            <div class="checkout">
+              <a href="checkout.html">Checkout</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="buttons">
-      <div class="close">CLOSE</div>
-      <div class="checkout">
-        <a href="checkout.html">Checkout</a>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+    </section>
 
-<section>
-  <footer id="contact">
-      <h1>SakaMelow</h1>
-      <div class="footer-contact">
+    <section>
+      <footer id="contact">
+        <h1>SakaMelow</h1>
+        <div class="footer-contact">
           <h3>Contact</h3>
           <p>+60123456789</p>
           <p>IIUM Student Mall,Gombak Campus</p>
-      </div>
-      <div class="footer-email">
+        </div>
+        <div class="footer-email">
           <h3>Get notify to our new menu</h3>
-              <form >
-                  <input type="text" placeholder="E-mail"> 
-                  <button>Notify</button>
+          <form>
+            <input type="text" placeholder="E-mail" />
+            <button>Notify</button>
+          </form>
+        </div>
+      </footer>
+    </section>
 
-              </form>
-         
-      </div>
-    </footer>
-</section>
-
-
-<script src="order.js"></script>
-</body>
+    <script src="order.js"></script>
+  </body>
 </html>

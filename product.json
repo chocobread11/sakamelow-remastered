@@ -7,9 +7,9 @@
     },
     {
         "id": 2,
-        "name": "Tauhu Begedil",
+        "name": "Tauhu Begedil Ayam",
         "price": 10,
-        "image":"images/oden.png"
+        "image":"images/tahugedil.jpeg"
     },
     {
         "id": 3,
@@ -25,16 +25,36 @@
     },
     {
         "id": 5,
+        "name": "Croissant",
+        "price": 10,
+        "image":"images/kwason.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Cheesetart",
+        "price": 10,
+        "image":"images/cistat.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mango Milkshake",
+        "price": 10,
+        "image":"images/manga.png"
+    },
+    {
+        "id": 8,
         "name": "Chocholate Milkshake",
         "price": 10,
         "image":"images/coklat.png"
     },
     {
-        "id": 6,
+        "id": 9,
         "name": "Mango Milkshake",
         "price": 10,
         "image":"images/manga.png"
     }
+
+
 
 
 
