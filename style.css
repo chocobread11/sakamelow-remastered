@@ -84,6 +84,11 @@ header .totalQuantity{ /* HEADER ON ICON CART */
     align-items: center;
     transform: translateX(20px) translateY(-20px);
 }
+
+.locate{
+    padding-bottom: 50px;
+    
+}
 /* START of INDEX page */
 .home {
     height: 100vh;
@@ -169,6 +174,12 @@ header .totalQuantity{ /* HEADER ON ICON CART */
     font-weight: 300;
     font-size: 20px;
 }
+.try{
+    background-color: #81756746;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 100vh;
+}
 .about .text, .locate .text{
     
     margin-left: auto;
@@ -214,10 +225,6 @@ header .totalQuantity{ /* HEADER ON ICON CART */
     margin-top: 50px;
 
 }
-
-
-
-
 
 /* END of INDEX page */
 
@@ -341,6 +348,7 @@ header .totalQuantity{ /* HEADER ON ICON CART */
 }
 .cart .buttons{
     display: grid;
+    column-gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
 }

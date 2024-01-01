@@ -10,36 +10,35 @@
         "name": "Tauhu Begedil Ayam",
         "price": 10,
         "image":"images/tahugedil.jpeg"
+    }, {
+        "id": 3,
+        "name": "Tauhu Begedil Daging",
+        "price": 10,
+        "image":"images/tahugedil.jpeg"
     },
     {
-        "id": 3,
+        "id":4,
         "name": "Eclairs",
         "price": 10,
         "image":"images/eclairs.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Bomboloni",
         "price": 10,
         "image":"images/bomboloni.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Croissant",
         "price": 10,
         "image":"images/kwason.jpg"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Cheesetart",
         "price": 10,
         "image":"images/cistat.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Mango Milkshake",
-        "price": 10,
-        "image":"images/manga.png"
     },
     {
         "id": 8,

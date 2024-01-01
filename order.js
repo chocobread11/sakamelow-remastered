@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to toggle the cart visibility
     function toggleCart() {
         cart.style.right = cart.style.right === '-100%' ? '0' : '-100%';
+        
     }
 
     // Function to hide the cart
