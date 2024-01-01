@@ -82,15 +82,53 @@
           <h3>Contact</h3>
           <p>+60123456789</p>
           <p>IIUM Student Mall,Gombak Campus</p>
+          <div class="footer-email">
+            <h3>Get notified of our new menu</h3>
+            <form id="notifyForm">
+                <input type="text" id="emailInput" placeholder="E-mail" />
+                <button type="submit">Notify</button>
+            </form>
         </div>
-        <div class="footer-email">
-          <h3>Get notify to our new menu</h3>
-          <form>
-            <input type="text" placeholder="E-mail" />
-            <button>Notify</button>
-          </form>
-        </div>
+        
       </footer>
     </section>
+    <script>
+        $(document).ready(function() {
+          $("#notifyForm").submit(function(event) {
+            event.preventDefault();
+      
+            // Get the email from the input field
+            var email = $("#emailInput").val();
+      
+            // Validate the email (you may want to add more robust validation)
+            if (isValidEmail(email)) {
+              // Use AJAX to send the email to the server
+              $.ajax({
+                type: "POST",
+                url: "saveEmail.php", // Replace with the actual path to your server-side script
+                data: { email: email },
+                success: function(response) {
+                  console.log("Email saved successfully:", response);
+                  // Optionally, you can display a success message to the user
+                },
+                error: function(error) {
+                  console.error("Error saving email:", error);
+                  // Optionally, you can display an error message to the user
+                }
+              });
+            } else {
+              console.error("Invalid email format");
+              // Optionally, you can display an error message to the user
+            }
+          });
+      
+          function isValidEmail(email) {
+            // Simple email validation, you may want to use a more robust method
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+          }
+        });
+      </script>
+
   </body>
 </html>
