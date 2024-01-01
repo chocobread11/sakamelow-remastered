@@ -63,8 +63,15 @@
         <div class="footer-email">
           <h3>Get notify to our new menu</h3>
           <form>
-            <input type="text" placeholder="E-mail" />
+            <input type="email" placeholder="E-mail" />
             <button>Notify</button>
+            <script>
+              $(document).ready(function(){
+                $("button").click(function(){
+                  alert("The notification was sent to the email.Thank you");
+                });
+              });
+              </script>
           </form>
         </div>
       </footer>

@@ -84,10 +84,17 @@
           <p>IIUM Student Mall,Gombak Campus</p>
           <div class="footer-email">
             <h3>Get notified of our new menu</h3>
-            <form id="notifyForm">
-                <input type="text" id="emailInput" placeholder="E-mail" />
-                <button type="submit">Notify</button>
-            </form>
+            <form>
+                <input type="email" placeholder="E-mail" />
+                <button>Notify</button>
+                <script>
+                  $(document).ready(function(){
+                    $("button").click(function(){
+                      alert("The notification was sent to the email.Thank you");
+                    });
+                  });
+                  </script>
+              </form>
         </div>
         
       </footer>
