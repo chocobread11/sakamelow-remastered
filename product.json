@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Oden",
+        "price": 10,
+        "image":"images/oden.png"
+    },
+    {
+        "id": 2,
+        "name": "Tauhu Begedil",
+        "price": 10,
+        "image":"images/oden.png"
+    },
+    {
+        "id": 3,
+        "name": "Eclairs",
+        "price": 10,
+        "image":"images/eclairs.png"
+    },
+    {
+        "id": 4,
+        "name": "Bomboloni",
+        "price": 10,
+        "image":"images/bomboloni.png"
+    },
+    {
+        "id": 5,
+        "name": "Chocholate Milkshake",
+        "price": 10,
+        "image":"images/coklat.png"
+    },
+    {
+        "id": 6,
+        "name": "Mango Milkshake",
+        "price": 10,
+        "image":"images/manga.png"
+    }
+
+
+
+
+
+
+]
