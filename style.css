@@ -174,12 +174,7 @@ header .totalQuantity{ /* HEADER ON ICON CART */
     font-weight: 300;
     font-size: 20px;
 }
-.try{
-    background-color: #81756746;
-    text-align: center;
-    padding-top: 10px;
-    min-height: 100vh;
-}
+
 .about .text, .locate .text{
     
     margin-left: auto;
@@ -413,3 +408,82 @@ footer button:hover{
 }
 
 /* END OF FOOTER */
+
+
+/* START OF CHECKOUT PAGE */
+.try{
+    background-color: #81756746;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+.checkout{
+    background-color: #b6b6b646;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+#checkout-form {
+    width: 300px;
+    margin: 0 auto;
+}
+#checkout-form h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 400px;
+}
+
+#checkout-form label {
+    display: block;
+    margin-top: 20px;
+}
+
+#checkout-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#checkout-form input[button="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.cekaut{
+    display: grid;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 5%;
+    
+}
+.cekaut .item img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+#checkout-form a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-form a:hover {
+    background-color: #45a049;
+}
+    

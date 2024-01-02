@@ -5,25 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>checkout page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="checkout.js"></script>
 </head>
 <body>
-    <section class="nav-sect">
-        <div class="container">
-          <header>
-            <h1>SakaMelow</h1>
-            <div class="navigation-I">
-              <a href="index.html">Home</a>
-              <a href="menu.html">Menu</a>
-              <a href="contact.html">Contact</a>
-            </div>
-          </header>
-        </section>
-   
-    <section class="try">
-        <div class="text">
-            <h1>Thank you for <br> buying from us</h1>
+  
+  <section class="nav-sect">
+    <div class="container">
+      <header>
+        <h1>SakaMelow</h1>
+        <div class="navigation-I">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
         </div>
+      </header>
     </section>
+
+    <section class="cekaut">
+      <div class="cuba">
+        <ul id="product-list">
+          <div class="container">
+            <div class="listProduct">
+              <div class="item">
+                <img src="images/oden.png" alt="oden" width="650" height="433"  />
+                <h2>Oden</h2>
+                <div class="price">RM10</div>
+              </div>
+            </div>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="checkout">
+      <div class="text">
+          <h1>Checkout</h1>
+          <form id="checkout-form">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label for="address">Address:</label><br>
+              <input type="text" id="address" name="address"><br>
+              <label for="card">Credit Card:</label><br>
+              <input type="text" id="card" name="card"><br>
+
+          <a href=#text1>submit</a>
+              
+          </form>
+      </div>
+  </section>
+
+  <section class="try">
+    <div class="text">
+        <h1 id="text1">Thank you for <br> buying from us</h1>
+    </div>
+</section>
 
 </body>
 </html>
