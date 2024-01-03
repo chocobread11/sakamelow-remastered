@@ -347,7 +347,7 @@ header .totalQuantity{ /* HEADER ON ICON CART */
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
 }
-.cart .buttons div{
+.cart .button .close, .cart .button .checkout{
     display: flex;
     justify-content: center;
     align-items: center;
